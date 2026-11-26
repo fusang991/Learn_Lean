@@ -17,3 +17,7 @@ npm run docs:dev
 npm run docs:build
 npm run docs:preview
 ```
+
+## GitHub Pages
+
+在 GitHub 仓库的 **Settings → Pages → Build and deployment → Source** 中选择 **GitHub Actions**。向 `main` 推送后，工作流会构建并发布笔记，访问地址显示在部署结果中。如果配置 Pages 时已经推送过代码，可以在 **Actions → Deploy notes to GitHub Pages → Run workflow** 手动发布。
