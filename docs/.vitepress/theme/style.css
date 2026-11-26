@@ -1,0 +1,12 @@
+@media (min-width: 960px) {
+  :root {
+    --vp-sidebar-width: calc(272px * 2 / 3);
+  }
+}
+
+/* On wide screens VitePress includes the outer gutter in the sidebar. */
+@media (min-width: 1440px) {
+  :root {
+    --vp-layout-max-width: calc(1440px + (100vw - 1440px) / 3);
+  }
+}
