@@ -9,7 +9,7 @@ npm install
 npm run docs:dev
 ```
 
-打开终端显示的本地地址。在 `docs/notes/` 新建 Markdown 文件，并把相对链接加到 [笔记首页](docs/index.md)。
+打开终端显示的本地地址。在 `docs/notes/` 新建 Markdown 文件，把笔记加到[侧栏配置](docs/.vitepress/config.mts)的对应章节，并在[总览](docs/index.md)添加链接。
 
 ## 构建
 
